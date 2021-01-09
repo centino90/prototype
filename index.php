@@ -1,3 +1,6 @@
+<?php
+  require_once "db.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -52,116 +55,17 @@
         </thead>
         <tbody class="table__tbody">
           <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor qwe w.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td>
               <i class="fas fa-ellipsis-v"></i>
               <i class="far fa-trash-alt"></i>
               <i class="far fa-edit"></i>
             </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
-          </tr>
-          <tr>
-            <td>Lorem</td>
-            <td>dolor</td>
-            <td>Lorem, ipsum dolor.</td>
-            <td>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed,
-              praesentium.
-            </td>
-            <td>
-              <i class="fas fa-ellipsis-v"></i>
-              <i class="far fa-trash-alt"></i>
-              <i class="far fa-edit"></i>
-            </td>
+        <?php 
+        ?>
           </tr>
         </tbody>
         <tfoot>
@@ -171,6 +75,7 @@
         </tfoot>
       </table>
     </div>
+    <script src="./query.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
